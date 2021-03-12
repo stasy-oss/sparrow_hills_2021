@@ -9,6 +9,8 @@ public:
     }
 
     Complex(const double real, const double imaginary) {
+		_real=real;
+		_imaginary=imaginary;
     }
 
     Complex(const Complex& copied) {
